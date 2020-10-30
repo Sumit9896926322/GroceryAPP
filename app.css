@@ -122,47 +122,47 @@
     border-radius: 5px;
 }
 .Fruits{
-    background-image: url("./fruits.jpg");
+    background-image: image-url("./fruits.jpg");
     background-repeat: no-repeat;
 }
 .Vegetables{
-    background-image: url("./vegetablejpg.jpg");
+    background-image: image-url("./vegetablejpg.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 .Grains{
-    background-image: url("./grains.jfif");
+    background-image: image-url("./grains.jfif");
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 .Masala{
-    background-image: url("./masala.jpg");
+    background-image: image-url("./masala.jpg");
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 .FrozenFood{
-    background-image: url("./frozenFoof.jfif");
+    background-image: image-url("./frozenFoof.jfif");
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 .Beverages{
-    background-image: url("./coldDrinksjpg.jpg");
+    background-image: image-url("./coldDrinksjpg.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 .Grocery{
-    background-image: url("./grocerynew.jfif");
+    background-image: image-url("./grocerynew.jfif");
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 .Pickels{
-    background-image: url("./pickels.jfif");
+    background-image: image-url("./pickels.jfif");
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
