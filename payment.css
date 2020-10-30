@@ -1,0 +1,47 @@
+.address{
+    width: 90%;
+    margin: a;
+    margin: auto;
+    box-shadow: 3px 3px #8080804d;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 30px;
+}
+h3{
+    color: #6fae07;
+    font-size: 20px;
+    margin: 15px 0px 0px 10px;
+}
+.checkout{
+    width: 90%;
+    margin: 10px auto;
+  height: 50px;
+    box-shadow: 3px 3px #8080804d;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkoutElem{
+    flex-grow: 4;
+}
+.footer{
+    color:white;
+    display: flex;
+    
+}
+.footerElem{
+    text-align: center;
+}
+.confirm{
+    cursor: pointer;
+    margin-left: 5px;
+    background: white;
+    color: #6fae07;
+    border-style: none;
+    font-size: 13px;
+    padding: 8px;
+    text-align: end;
+    border-radius: 50px;
+}
