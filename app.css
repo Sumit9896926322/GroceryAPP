@@ -1,0 +1,214 @@
+#app{
+    width: 40%;
+    /* border: 2px solid black; */
+    margin: auto;
+    height: 100vh;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.sidenav{
+    position: absolute;
+    height: 100vh;
+    width: 25%;
+    color: white;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    background: #6fae07;
+    z-index: 1;
+    display: none;
+}
+.sidenav-content{
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.fa-times{
+    margin: 20px;
+    text-align: end;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    background-color:#6fae07;
+}
+
+.header i{
+    font-size: 33px;
+    flex-grow: 1;
+    margin: 15px 15px;
+}
+.fa-bell{
+    text-align: center;
+}
+.brand-logo{
+    flex-grow: 8;
+    text-align: center;
+    font-size: 30px;
+    
+}
+#search-product{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid #6fae07;
+    border-radius: 20px;
+    color:#6fae07;
+}
+.fa-search{
+    margin: 5px 10px;
+}
+.carousel{
+    width: 90%;
+    margin: auto;
+    border-radius: 2px;
+}
+.carousel img{
+    height: 200px;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    display: none;
+}
+
+.category{
+    margin: 10px;
+    display: flex;
+}
+.sub-category{
+    padding: 5px 15px;
+    margin: 5px 5px;
+    color: #6fae07;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor:pointer;
+}
+.categories{
+    border:1px solid 6fae07;
+    color: white;
+    border-radius: 25px;
+    background: #6fae07;
+}
+.sub-category:hover{
+    border:1px solid 6fae07;
+    color: white;
+    border-radius: 25px;
+    background: #6fae07;
+}
+/*Item styling*/
+.items{
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+}
+.item{
+    width: 44%;
+    margin: 10px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.Fruits{
+    background-image: url("./category/fruits.jpg");
+    background-repeat: no-repeat;
+}
+.Vegetables{
+    background-image: url("./category/vegetablejpg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.Grains{
+    background-image: url("./category/grains.jfif");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.Masala{
+    background-image: url("./category/masala.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.FrozenFood{
+    background-image: url("./category/frozenFoof.jfif");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.Beverages{
+    background-image: url("./category/coldDrinksjpg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.Grocery{
+    background-image: url("./category/grocerynew.jfif");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.Pickels{
+    background-image: url("./category/pickels.jfif");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+.item-name{
+    background: white;
+    margin-top: 60px;
+    width: 60%;
+    padding-left: 20px;
+    color: #6fae07;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    height: 45px;
+    background: #6fae07;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.footer-content{
+    margin: 0px 55px;
+    cursor:pointer;
+    text-align: center;
+    font-size: 20px;
+    color: #f8f9fa;
+    padding: 7px;
+}
+
+.footer i:hover{
+    background-color:white;
+    
+    color: #6fae07;
+    border-radius: 50px;
+}
+.footer div{
+    flex-grow: 3;
+}
+
+.fa-home{
+    background-color:white;   
+    color: #6fae07;
+    border-radius: 50px;
+}
